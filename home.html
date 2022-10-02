@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home of the Caffeine</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <style>
+      body {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <div class="container mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="home.html" class="navbar-brand">Home Page</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controle="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" class="nav-item" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <body class="container">
+    <div class="container-fluid">
+      <div class="row">
+        <img
+          class="container-fluid"
+          src="https://centsai.com/wp-content/uploads/2018/07/Best-source-of-caffeine-iStock-618972606.jpg"
+          alt="A picture of different forms of coffee in spoons."
+        />
+      </div>
+      <br />
+      <div class="container-fluid" class="row">
+        <p>
+          Caffeine is a major driving force in todays world. Roughly eighty
+          percent of the population of the United States consumes caffeine. This
+          site is here to explain some of the different sources I use, their
+          benefits, and their drawbacks. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Neque quidem architecto accusantium velit facilis
+          asperiores tempore, excepturi rerum modi aperiam numquam
+          exercitationem sunt aliquam repellat fugiat quo distinctio cum!
+          Voluptas itaque non adipisci cum sunt, qui voluptate laboriosam neque
+          commodi assumenda repudiandae illum sapiente quaerat optio ducimus
+          placeat. Architecto delectus porro reiciendis cum odio minima aperiam
+          mollitia veritatis harum voluptatum est aliquid error rem alias
+          ratione sequi quasi, magni dicta officia. Necessitatibus quia dolor,
+          reiciendis soluta suscipit est, dicta itaque iure culpa nulla at ea
+          commodi natus ut qui. Quaerat atque tenetur nam provident itaque esse
+          nihil molestias aspernatur praesentium?
+        </p>
+      </div>
+      <br />
+      <div class="container-fluid" class="row">
+        <h2>My Favorite Sources of Energy</h2>
+      </div>
+      <div class="container-fluid" class="row">
+        <ol>
+          <li>Coffee</li>
+          <li>Bang Energy</li>
+          <li>Caffeine Pills</li>
+          <li>Monster Energy</li>
+        </ol>
+      </div>
+      <div class="container-fluid" class="row">
+        <h3>
+          If you had to choose what source of caffeine would you choose from
+          this list?
+        </h3>
+      </div>
+
+      <form class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 mt-3">
+            <label for="caffeine-source" class="form-label"
+              >Choose Source:</label
+            >
+          </div>
+          <div class="col-md-3 mt-3">
+            <select id="caffeine-source">
+              <option value="Default"></option>
+              <option value="Coffee">Coffee</option>
+              <option value="Bang-Energy">Bang Energy</option>
+              <option value="Caffeine-Pills">Caffeine Pills</option>
+              <option value="Monster-Energy">Monster Energy</option>
+            </select>
+          </div>
+          <br />
+          <div class="col-md">
+            <input type="submit" class="btn btn-primary mt-3" value="Submit" />
+          </div>
+        </div>
+      </form>
+      <br />
+      <br />
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
